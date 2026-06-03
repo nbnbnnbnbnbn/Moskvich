@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Москвич M70 — Сатурн Официальный дилер</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="header__logo" aria-label="САТУРН — Официальный дилер">
+                <img src="images/saturn-logo.png" alt="Логотип САТУРН" class="header__logo-img">
+            </a>
+            
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li><a href="#exterior" class="header__link">Экстерьер</a></li>
+                    <li><a href="#interior" class="header__link">Интерьер</a></li>
+                    <li><a href="#view360" class="header__link">Обзор 360</a></li>
+                    <li><a href="#colors" class="header__link">Цвета</a></li>
+                    <li><a href="#comfort" class="header__link">Комфорт</a></li>
+                    <li><a href="#tech" class="header__link">Технологии</a></li>
+                </ul>
+                <a href="#feedback" class="btn-premium header__btn-mobile">Связаться с нами</a>
+            </nav>
+
+            <div class="header__actions">
+                <a href="#feedback" class="btn-premium header__btn-desktop">Связаться с нами</a>
+                <button class="header__burger" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero__container">
+                <h1 class="hero__title">Москвич M70</h1>
+                <p class="hero__subtitle">Принципы визуальной чистоты, порядка и баланса.</p>
+            </div>
+        </section>
+
+        <section class="section bg-darken" id="exterior">
+            <div class="container">
+                <h2 class="section__title-centered">Экстерьер</h2>
+                <div class="showcase__grid">
+                    <div class="showcase__item">
+                        <div class="showcase__bg"><img src="images/exterior-clean-lines.webp" alt=""></div>
+                        <div class="showcase__content">
+                            <span class="showcase__tag">01 / Снаружи</span>
+                            <h3 class="showcase__heading">Визуальная чистота</h3>
+                            <p class="showcase__text">Дизайн Москвич М70 построен на принципах визуальной чистоты. Здесь нет случайных штрихов или надуманного декора — все линии плавные, непрерывные и логично перетекают друг в друга.</p>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <div class="showcase__bg"><img src="images/m70-desktop-exterior-tinting-big.webp" alt=""></div>
+                        <div class="showcase__content">
+                            <span class="showcase__tag">02 / Снаружи</span>
+                            <h3 class="showcase__heading">Порядок и баланс</h3>
+                            <p class="showcase__text">Автомобиль выдержан в строгой, единой тональности, что делает его образ цельным и собранным. Это лаконичный и понятный минимализм, где форма просто создает ощущение баланса.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="interior">
+            <div class="container">
+                <h2 class="section__title-centered">Интерьер</h2>
+                <div class="showcase__grid">
+                    <div class="showcase__item">
+                        <div class="showcase__bg"><img src="images/m70-desktop-comfort-soundproofing-big.webp" alt=""></div>
+                        <div class="showcase__content">
+                            <span class="showcase__tag">01 / Внутри</span>
+                            <h3 class="showcase__heading">Пространство и свет</h3>
+                            <p class="showcase__text">Архитектура салона построена на строгих горизонтальных линиях, которые визуально расширяют салон и создают неповторимое ощущение простора.</p>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <div class="showcase__bg"><img src="images/m70-desktop-interior-wheelComfort-big.webp" alt=""></div>
+                        <div class="showcase__content">
+                            <span class="showcase__tag">02 / Внутри</span>
+                            <h3 class="showcase__heading">Цифровая зона</h3>
+                            <p class="showcase__text">Элементы управления скомпонованы в единую цифровую зону, что позволило освободить пространство от хаоса привычных физических кнопок.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="view360">
+            <div class="container">
+                <h2 class="section__title-centered">Обзор 360°</h2>
+                <p class="section__description">Полностью погрузитесь в Москвич M70: исследуйте линии кузова, изучите детали интерьера и оцените характер автомобиля с любого ракурса.</p>
+                <div class="hero__image-placeholder">
+                    <div class="view360">
+                        <img id="viewerImage" src="./images/1.webp" alt="Обзор 360">
+                    </div>
+                </div>
+                <h1 class="section__description" >
+                    M70 -   ВДОХНОВЕНИЕ В КАЖДОЙ ДЕТАЛИ
+                </h1>
+            </div>
+        </section>
+
+                <section class="section bg-darken" id="colors">
+            <div class="container">
+                <h2 class="section__title-centered">Эстетика цвета</h2>
+                
+                <div class="colors__configurator" id="colorsConfigurator">
+                    <div class="colors__preview">
+                        <div class="colors__car-placeholder">
+                            <div class="colors__car-stage" aria-live="polite">
+                                <img
+                                    class="colors__car-image is-visible"
+                                    id="carImageFront"
+                                    src="images/color-black.png"
+                                    data-src="images/color-black.png"
+                                    alt="Москвич M70 — Астраханский черный"
+                                >
+                                <img
+                                    class="colors__car-image"
+                                    id="carImageBack"
+                                    src=""
+                                    alt=""
+                                    aria-hidden="true"
+                                >
+                            </div>
+                            <p class="colors__car-label" id="colorName">Астраханский черный</p>
+                        </div>
+                    </div>
+
+                    <div class="colors__controls">
+                        <div class="colors__palette" role="tablist" aria-label="Цвет кузова">
+                            <button type="button" role="tab" class="colors__swatch colors__swatch--black active" data-color="black" data-name="Астраханский черный" data-image="images/color-black.png" aria-selected="true" aria-label="Астраханский черный"></button>
+                            <button type="button" role="tab" class="colors__swatch colors__swatch--white" data-color="white" data-name="Архангельский белый" data-image="images/color-white.png" aria-selected="false" aria-label="Архангельский белый"></button>
+                            <button type="button" role="tab" class="colors__swatch colors__swatch--blue" data-color="blue" data-name="Ладожский голубой" data-image="images/color-blue.png" aria-selected="false" aria-label="Ладожский голубой"></button>
+                            <button type="button" role="tab" class="colors__swatch colors__swatch--grey" data-color="grey" data-name="Балтийский серый" data-image="images/color-grey.png" aria-selected="false" aria-label="Балтийский серый"></button>                            
+                            <button type="button" role="tab" class="colors__swatch colors__swatch--silver" data-color="silver" data-name="Камчатский серебристый" data-image="images/color-silver.png" aria-selected="false" aria-label="Камчатский серебристый"></button>
+                            <button type="button" role="tab" class="colors__swatch colors__swatch--red" data-color="red" data-name="Алтайский красный" data-image="images/color-red.png" aria-selected="false" aria-label="Алтайский красный"></button>
+                        </div>
+                        <p class="colors__hint">Выберите цвет кузова</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-darken" id="comfort">
+            <div class="container">
+                <div class="comfort__header">
+                    <h2 class="section__title">Безупречный комфорт</h2>
+                    <p class="comfort__lead">Каждая деталь спроектирована с заботой о вашем внутреннем балансе и спокойствии в движении.</p>
+                </div>
+                
+                <div class="comfort__grid">
+                    <div class="comfort__card comfort__card--wide">
+                        <div class="comfort__card-img"><img src="images/comfort-management.png" alt=""></div>
+                        <div class="comfort__card-content">
+                            <h3 class="comfort__card-title">Управление</h3>
+                            <p class="comfort__card-text">Салон спроектирован вокруг человека. Это безупречно настроенная экосистема, превращающая каждую поездку в удовольствие.</p>
+                        </div>
+                    </div>
+                    <div class="comfort__card">
+                        <div class="comfort__card-img"><img src="images/m70-desktop-comfort-soundproofing-big.webp" alt=""></div>
+                        <div class="comfort__card-content">
+                            <h3 class="comfort__card-title">Звук</h3>
+                            <p class="comfort__card-text">Мультимедийное пространство с выверенной физической акустикой салона.</p>
+                        </div>
+                    </div>
+                    <div class="comfort__card">
+                        <div class="comfort__card-img"><img src="images/comfort-climate.png" alt=""></div>
+                        <div class="comfort__card-content">
+                            <h3 class="comfort__card-title">Климат-контроль</h3>
+                            <p class="comfort__card-text">Умная система заботы о водителе и пассажирах, поддерживающая персональный баланс.</p>
+                        </div>
+                    </div>
+                    <div class="comfort__card comfort__card--wide">
+                        <div class="comfort__card-img"><img src="images/m70-desktop-comfort-seatRegulation-big.webp" alt=""></div>
+                        <div class="comfort__card-content">
+                            <h3 class="comfort__card-title">Электропривод сидений</h3>
+                            <p class="comfort__card-text">Интеллектуальный электропривод обеспечивает непревзойденную точность калибровки положения тела.</p>
+                        </div>
+                    </div>
+                    <div class="comfort__card comfort__card--wide">
+                        <div class="comfort__card-img"><img src="images/m70-desktop-comfort-trunk-big.webp" alt=""></div>
+                        <div class="comfort__card-content">
+                            <h3 class="comfort__card-title">Багажник</h3>
+                            <p class="comfort__card-text">Плавное открытие и закрытие с помощью электропривода позволяет легко загрузить багаж.</p>
+                        </div>
+                    </div>
+                    <div class="comfort__card comfort__card">
+                        <div class="comfort__card-img"><img src="images/m70-desktop-comfort-charger-big.webp" alt=""></div>
+                        <div class="comfort__card-content">
+                            <h3 class="comfort__card-title">Беспроводная зарядка</h3>
+                            <p class="comfort__card-text">Избавляет салон от хаотичных кабелей, создавая атмосферу спокойствия и завершенности.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="tech">
+            <div class="container">
+                <h2 class="section__title">Технологии</h2>
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <div class="tech-item__num">01</div>
+                        <div class="tech-item__info">
+                            <h3 class="tech-item__title">Контроль слепых зон</h3>
+                            <p class="tech-item__text">Непрерывно сканирует пространство позади и по бокам автомобиля, скрытое от взгляда.</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-item__num">02</div>
+                        <div class="tech-item__info">
+                            <h3 class="tech-item__title">Круиз-контроль</h3>
+                            <p class="tech-item__text">Автомобиль полностью берет на себя контроль дистанции, избавляя вас от напряжения.</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-item__num">03</div>
+                        <div class="tech-item__info">
+                            <h3 class="tech-item__title">Ограничитель скорости</h3>
+                            <p class="tech-item__text">Синергия оптических датчиков и электроники распознает дорожные знаки.</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-item__num">04</div>
+                        <div class="tech-item__info">
+                            <h3 class="tech-item__title">Удержание в полосе</h3>
+                            <p class="tech-item__text">Оптический датчик распознает разметку, выступая в роли невидимого контура безопасности.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="feedback">
+            <div class="container feedback__container">
+                <div class="feedback__info">
+                    <h2 class="section__title">Узнайте больше</h2>
+                    <p class="feedback__subtitle">Официальный дилер Москвич САТУРН.<br> Челябинск, Молодогвардейцев 2.<br> <a href="tel:+73517013348" style="color: inherit; text-decoration: none; font-weight: 600;">+7 (351) 701 33 48</a></p>
+                </div>
+                <div class="feedback__form">
+                    <form class="form" action="#">
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder=" " id="formName" required>
+                            <label class="form__label" for="formName">Ваше имя</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="tel" class="form__input" placeholder=" " id="formPhone" required>
+                            <label class="form__label" for="formPhone">Телефон</label>
+                        </div>
+                        <button type="submit" class="btn-premium">Отправить запрос</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__main">
+                <a href="#" class="footer__logo">
+                    <svg width="180" height="54" viewBox="0 0 180 54" xmlns="http://www.w3.org/2000/svg">
+                        <img src="images/saturn-logo.png" alt="" class="logo">
+                    </svg>
+                </a>
+                <p class="footer__disclaimer">САТУРН — официальный дилер Москвич</p>
+                <a href="#" class="footer__policy">Политика обработки персональных данных</a>
+                <a href="#" class="footer__consent">Согласие на обработку персональных данных</a>
+            </div>
+            
+            <div class="footer__contacts">
+                <p class="footer__address">Челябинск, ул. Молодогвардейцев, 2</p>
+                <a href="tel:+73517013348" class="footer__phone">+7 (351) 701 33 48</a>
+            </div>
+            
+            <p class="footer__copy">ООО «Сатурн-2». Все права защищены. &copy; 2026</p>
+        </div>
+    </footer>
+    <div id="feedbackOverlay" class="overlay">
+    <div class="overlay__content">
+        <button class="overlay__close">&times;</button>
+        <h2 class="overlay__title">ЗАКАЗАТЬ ЗВОНОК</h2>
+        <p class="overlay__subtitle">Заполните онлайн-заявку на сайте. Менеджер свяжется с вами в ближайшее время</p>
+        <form class="overlay__form">
+            <input type="text" placeholder="Ваше имя" autocomplete="name" required>
+            <input type="tel" placeholder="Телефон" autocomplete="tel" required>
+
+            <label class="overlay__consent">
+                <input class="overlay__consent-checkbox" type="checkbox" required>
+                <span class="overlay__consent-text">Я даю свое согласие на <a class="overlay__consent-link" href="#" target="_blank" rel="noreferrer">обработку персональных данных</a></span>
+            </label>
+
+            <button type="submit" class="btn-premium overlay__submit">ЖДУ ЗВОНКА</button>
+        </form>
+    </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
